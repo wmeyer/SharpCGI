@@ -63,13 +63,14 @@ How to compile:
     Optionally (if you want to use IIS or other web servers that pass the socket through stdin):
         Compile the C++/CLI project "SocketSupport" with Visual C++ 2010 (Express Edition).
 
-    Compile the FastCGI F# solution with Visual Studio 2010 or with the 2010 version of the free tools [3].
+    Compile the FastCGI F# solution with Visual Studio 2010
+      or with the 2010 version of the free tools [3].
 
-    Not tested with Visual Studio 2008, but it should be possible to create a working solution by hand.
-    As far as I'm aware, no .NET 4 features were used.
+    Not tested with Visual Studio 2008, but it should be possible
+      to create a working solution by hand. As far as I'm aware, no .NET 4 features were used.
 
-    If you want to use the library in a C# project, go to the project's property page and add "--standalone"
-      to "Other flags" on the "Build" tab.
+    If you want to use the library in a C# project, go to the project's property page
+      and add "--standalone" to "Other flags" on the "Build" tab.
 
 
 How to run the test suite:
